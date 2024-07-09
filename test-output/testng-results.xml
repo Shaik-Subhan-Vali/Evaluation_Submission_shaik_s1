@@ -1,29 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-08T11:05:09 IST" name="Default suite" finished-at="2024-07-08T11:05:18 IST" duration-ms="9510">
+  <suite started-at="2024-07-09T07:54:17 IST" name="TestNG_Suite" finished-at="2024-07-09T07:54:25 IST" duration-ms="8109">
     <groups>
+      <group name="Multiple checkbox">
+        <method signature="Testng_Annotations.tc3()[pri:2, instance:Testng_Annotations@27406a17]" name="tc3" class="Testng_Annotations"/>
+        <method signature="Testng_Annotations.tc4()[pri:3, instance:Testng_Annotations@27406a17]" name="tc4" class="Testng_Annotations"/>
+      </group> <!-- Multiple checkbox -->
+      <group name="checkbox">
+        <method signature="Testng_Annotations.tc2()[pri:1, instance:Testng_Annotations@27406a17]" name="tc2" class="Testng_Annotations"/>
+      </group> <!-- checkbox -->
+      <group name="radio">
+        <method signature="Testng_Annotations.tc1()[pri:0, instance:Testng_Annotations@27406a17]" name="tc1" class="Testng_Annotations"/>
+      </group> <!-- radio -->
     </groups>
-    <test started-at="2024-07-08T11:05:09 IST" name="Default test" finished-at="2024-07-08T11:05:18 IST" duration-ms="9510">
+    <test started-at="2024-07-09T07:54:17 IST" name="TestNG_Test" finished-at="2024-07-09T07:54:25 IST" duration-ms="8109">
       <class name="Testng_Annotations">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testng_Annotations@69e153c5]" started-at="2024-07-08T11:05:09 IST" name="setup" finished-at="2024-07-08T11:05:15 IST" duration-ms="6059" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testng_Annotations@27406a17]" started-at="2024-07-09T07:54:17 IST" name="setup" finished-at="2024-07-09T07:54:22 IST" duration-ms="4500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc1()[pri:0, instance:Testng_Annotations@69e153c5]" started-at="2024-07-08T11:05:15 IST" name="tc1" finished-at="2024-07-08T11:05:15 IST" duration-ms="93" status="PASS">
+        <test-method signature="tc1()[pri:0, instance:Testng_Annotations@27406a17]" started-at="2024-07-09T07:54:22 IST" name="tc1" finished-at="2024-07-09T07:54:22 IST" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method signature="tc2()[pri:0, instance:Testng_Annotations@69e153c5]" started-at="2024-07-08T11:05:15 IST" name="tc2" finished-at="2024-07-08T11:05:15 IST" duration-ms="68" status="PASS">
+        <test-method signature="tc2()[pri:1, instance:Testng_Annotations@27406a17]" started-at="2024-07-09T07:54:22 IST" name="tc2" finished-at="2024-07-09T07:54:22 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc2 -->
-        <test-method is-config="true" signature="teardwon()[pri:0, instance:Testng_Annotations@69e153c5]" started-at="2024-07-08T11:05:15 IST" name="teardwon" finished-at="2024-07-08T11:05:18 IST" duration-ms="3230" status="PASS">
+        <test-method signature="tc3()[pri:2, instance:Testng_Annotations@27406a17]" started-at="2024-07-09T07:54:22 IST" name="tc3" finished-at="2024-07-09T07:54:22 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method signature="tc4()[pri:3, instance:Testng_Annotations@27406a17]" started-at="2024-07-09T07:54:22 IST" name="tc4" depends-on-groups="radio" finished-at="2024-07-09T07:54:22 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method is-config="true" signature="teardwon()[pri:0, instance:Testng_Annotations@27406a17]" started-at="2024-07-09T07:54:22 IST" name="teardwon" finished-at="2024-07-09T07:54:25 IST" duration-ms="3177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardwon -->
       </class> <!-- Testng_Annotations -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TestNG_Test -->
+  </suite> <!-- TestNG_Suite -->
 </testng-results>
